@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2021 PlanetaTIC - Marc Poch <mpoch@planetatic.com>
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+<data>
+
+<record model="ir.ui.view" id="product_product_mirakl">
+    <field name="name">product.product.form.mirakl</field>
+    <field name="model">product.product</field>
+    <field name="inherit_id" ref="product.product_normal_form_view"/>
+    <field name="arch" type="xml">
+        <xpath expr="//group[@name='group_lots_and_weight']" position="inside">
+            <field name="mirakl_export_stock"/>
+        </xpath>
+    </field>
+</record>
+
+</data>
+</odoo>

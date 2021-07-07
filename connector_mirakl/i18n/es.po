@@ -1,0 +1,140 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* connector_mirakl
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-07 10:26+0000\n"
+"PO-Revision-Date: 2021-07-07 10:26+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: connector_mirakl
+#: model:ir.model.fields,field_description:connector_mirakl.field_connector_mirakl__active
+msgid "Active"
+msgstr "Activo"
+
+#. module: connector_mirakl
+#: code:addons/connector_mirakl/models/connector_mirakl.py:101
+#, python-format
+msgid "An error has occurred API Mirakl\n"
+"%s"
+msgstr "Ha ocurrido un error al acceder a la API de Mirakl\n"
+"%s"
+
+#. module: connector_mirakl
+#: model_terms:ir.ui.view,arch_db:connector_mirakl.connector_mirakl_tree_view
+msgid "Connector Mirakl"
+msgstr "Connector Mirakl"
+
+#. module: connector_mirakl
+#: model:ir.model.fields,field_description:connector_mirakl.field_connector_mirakl__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: connector_mirakl
+#: model:ir.model.fields,field_description:connector_mirakl.field_connector_mirakl__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: connector_mirakl
+#: model:ir.model.fields,field_description:connector_mirakl.field_connector_mirakl__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: connector_mirakl
+#: model:ir.model.fields,field_description:connector_mirakl.field_connector_mirakl__id
+msgid "ID"
+msgstr "ID (identificación)"
+
+#. module: connector_mirakl
+#: selection:connector.mirakl,product_qty_field:0
+msgid "Immediately usable qty"
+msgstr ""
+
+#. module: connector_mirakl
+#: code:addons/connector_mirakl/models/connector_mirakl.py:44
+#, python-format
+msgid "In order to choose this option, you have to install the module stock_available_unreserved."
+msgstr ""
+
+#. module: connector_mirakl
+#: model:ir.model.fields,field_description:connector_mirakl.field_connector_mirakl____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: connector_mirakl
+#: model:ir.model.fields,field_description:connector_mirakl.field_connector_mirakl__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización de"
+
+#. module: connector_mirakl
+#: model:ir.model.fields,field_description:connector_mirakl.field_connector_mirakl__write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: connector_mirakl
+#: model:ir.model.fields,field_description:connector_mirakl.field_connector_mirakl__mirakl_api_export_stock_url
+msgid "Mirakl API Export Stock URL"
+msgstr "URL de exportación de Stock de la API de Mirakl"
+
+#. module: connector_mirakl
+#: model:ir.model.fields,field_description:connector_mirakl.field_connector_mirakl__mirakl_api_key
+msgid "Mirakl API key"
+msgstr "Key de la API de Mirakl"
+
+#. module: connector_mirakl
+#: model:ir.model.fields,field_description:connector_mirakl.field_product_product__mirakl_export_stock
+msgid "Mirakl Export Stock"
+msgstr "Eportar Stock a Mirakl"
+
+#. module: connector_mirakl
+#: model:ir.model.fields,field_description:connector_mirakl.field_connector_mirakl__mirakl_api_export_stock_api_params
+msgid "Mirakl Export Stock API Parameters"
+msgstr "Parámetros de exportación de Stock de la API de Mirakl"
+
+#. module: connector_mirakl
+#: model:ir.actions.server,name:connector_mirakl.ir_cron_mirakl_export_stock_ir_actions_server
+#: model:ir.cron,cron_name:connector_mirakl.ir_cron_mirakl_export_stock
+#: model:ir.cron,name:connector_mirakl.ir_cron_mirakl_export_stock
+msgid "Mirakl Export stock"
+msgstr "Eportación de Stock a Mirakl"
+
+#. module: connector_mirakl
+#: model:ir.actions.act_window,name:connector_mirakl.mirakl_action_config
+#: model:ir.ui.menu,name:connector_mirakl.connector_mirakl_menu
+#: model_terms:ir.ui.view,arch_db:connector_mirakl.connector_mirakl_form_view
+msgid "Mirakl settings"
+msgstr "Configuración Mirakl"
+
+#. module: connector_mirakl
+#: model:ir.model,name:connector_mirakl.model_product_product
+msgid "Product"
+msgstr "Producto"
+
+#. module: connector_mirakl
+#: model:ir.model.fields,field_description:connector_mirakl.field_connector_mirakl__product_qty_field
+msgid "Product qty"
+msgstr "Cantidad del producto"
+
+#. module: connector_mirakl
+#: selection:connector.mirakl,product_qty_field:0
+msgid "Qty available"
+msgstr "Disponible"
+
+#. module: connector_mirakl
+#: model:ir.model.fields,help:connector_mirakl.field_connector_mirakl__product_qty_field
+msgid "Select how you want to calculate the qty to push to Mirakl."
+msgstr "Selecciona la cantidad que deseas exportar a Mirakl"
+
+#. module: connector_mirakl
+#: model:ir.model,name:connector_mirakl.model_connector_mirakl
+msgid "connector.mirakl"
+msgstr "connector.mirakl"
+

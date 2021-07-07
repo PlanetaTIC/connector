@@ -1,0 +1,5 @@
+"id","name","model_id:id","group_id:id","perm_read","perm_write","perm_create","perm_unlink"
+"access_connector_mirakl_sale_manager","connector_mirakl sale manager","model_connector_mirakl","sales_team.group_sale_manager",1,1,1,1
+"access_connector_mirakl_stock_manager","connector_mirakl stock manager","model_connector_mirakl","stock.group_stock_manager",1,1,1,1
+"access_connector_mirakl_stock_user","connector_mirakl stock user","model_connector_mirakl","stock.group_stock_user",1,0,0,0
+"access_connector_mirakl_salesman","connector_mirakl salesman","model_connector_mirakl","sales_team.group_sale_salesman",1,0,0,0

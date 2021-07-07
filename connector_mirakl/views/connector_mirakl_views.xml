@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2021 PlanetaTIC - Marc Poch <mpoch@planetatic.com>
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+<data>
+
+<record id="connector_mirakl_form_view" model="ir.ui.view">
+    <field name="name">connector.mirakl.form</field>
+    <field name="model">connector.mirakl</field>
+    <field name="arch" type="xml">
+        <form string="Mirakl settings">
+            <group name="api_mirakl">
+                <field name="active" />
+                <field name="mirakl_api_key" />
+                <field name="mirakl_api_export_stock_url" />
+                <field name="mirakl_api_export_stock_api_params" />
+                <field name="product_qty_field" />
+            </group>
+        </form>
+	</field>
+</record>
+
+<record id="connector_mirakl_tree_view" model="ir.ui.view">
+    <field name="name">connector.mirakl.tee</field>
+    <field name="model">connector.mirakl</field>
+    <field name="arch" type="xml">
+        <tree string="Connector Mirakl">
+            <field name="mirakl_api_key" />
+            <field name="mirakl_api_export_stock_url" />
+            <field name="mirakl_api_export_stock_api_params" />
+            <field name="product_qty_field" />
+            <field name="active" />
+        </tree>
+    </field>
+</record>
+
+<record id="mirakl_action_config" model="ir.actions.act_window">
+    <field name="name">Mirakl settings</field>
+    <field name="res_model">connector.mirakl</field>
+    <field name="view_type">form</field>
+    <field name="view_mode">tree,form</field>
+    <field name="domain">[]</field>
+</record>
+
+<menuitem id="connector_mirakl_menu"
+    action="mirakl_action_config"
+    parent="sale.menu_sale_config"/>
+
+</data>
+</odoo>
